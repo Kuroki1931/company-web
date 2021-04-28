@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1552a8551c90ca52fa4af52e4664565f987ba07560926669a8d9ee80244b131f"
+            "sha256": "b00fcb580e031c9a2f9f3847ecd80329ce80edd18f2742497682959cc4970207"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -10,7 +10,7 @@
         "sources": [
             {
                 "name": "pypi",
-                "url": "https://pypi.python.org/simple",
+                "url": "https://pypi.org/simple",
                 "verify_ssl": true
             }
         ]
@@ -23,30 +23,6 @@
             ],
             "index": "pypi",
             "version": "==2.2.3"
-        },
-        "django-cors-headers": {
-            "hashes": [
-                "sha256:1ac2b1213de75a251e2ba04448da15f99bcfcbe164288ae6b5ff929dc49b372f",
-                "sha256:96069c4aaacace786a34ee7894ff680780ec2644e4268b31181044410fecd12e"
-            ],
-            "index": "pypi",
-            "version": "==3.7.0"
-        },
-        "djangorestframework": {
-            "hashes": [
-                "sha256:305b2c6564ca46d3b558ba21110ed717135c467adf1a6dfd192bd85f4bb04d50",
-                "sha256:cd7f0f678d63e2be561834ff2049eef6d9fd6fb85c63bea7e94597b36c015bf4"
-            ],
-            "index": "pypi",
-            "version": "==3.7.1"
-        },
-        "gunicorn": {
-            "hashes": [
-                "sha256:aa8e0b40b4157b36a5df5e599f45c9c76d6af43845ba3b3b0efe2c70473c2471",
-                "sha256:fa2662097c66f920f53f70621c6c58ca4a3c4d3434205e608e121b5b3b71f4f3"
-            ],
-            "index": "pypi",
-            "version": "==19.9.0"
         },
         "pytz": {
             "hashes": [
