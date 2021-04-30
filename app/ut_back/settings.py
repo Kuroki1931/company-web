@@ -15,9 +15,7 @@ DEBUG = int(os.environ.get('DEBUG', default=0))
 
 ALLOWED_HOSTS = ["*"]
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,7 +43,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "http://utfinance.s3-website-ap-northeast-1.amazonaws.com"
+    "http://utfinance.s3-website-ap-northeast-1.amazonaws.com",
 ]
 
 ROOT_URLCONF = 'ut_back.urls'
