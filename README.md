@@ -1,4 +1,4 @@
-# ut_finance
+# company_web
 
 .env
 .env.db
