@@ -41,10 +41,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000",
-    "http://utfinance.s3-website-ap-northeast-1.amazonaws.com",
-]
+CORS_ORIGIN_WHITELIST = ["*"]
 
 ROOT_URLCONF = 'ut_back.urls'
 
